@@ -6,7 +6,6 @@ import requests
 
 r = requests.get("https://coreyms.com")
 print(r.status_code, "lol")
-print(sys.version)
 
 
 def samyo(chiffre):
@@ -18,3 +17,4 @@ def samyo(chiffre):
 
 sam = samyo(5)
 print(sam, "yoooooooooooooGlooooooooo")
+print("mama")
